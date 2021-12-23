@@ -1,0 +1,61 @@
+.title { 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+.title h2{
+    font-size: 30px;
+    color: #fff; 
+}
+.title button{
+    font-size: 20px;
+    color:  #5aff00;
+    text-align: center; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #011C51;
+    box-shadow:  0 0 2px 1px #61dafb; 
+    transition: all .2s;
+}
+.title button:hover{
+    box-shadow:  0 0 10px 1px #61dafb; 
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    } 
+    100%{
+       opacity: 1;
+    }
+}
+.cards{
+    width: 466px;
+    height:auto; 
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px; 
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.result{
+    font-size: 15px;
+    color: #fff;  
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.result p{ 
+    margin: 0;
+}
+.result a{ 
+    color: #ffffff;  
+    text-decoration: none;
+}
+.aqua-color{ 
+    color: #61dafb;
+    font-weight: bold;
+}
